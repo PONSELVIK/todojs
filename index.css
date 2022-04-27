@@ -1,0 +1,58 @@
+#popup{
+    height: 200px;
+    width: 400px;
+    border: 4px solid red;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+    position: relative;
+    top: 150px;
+    left: 500px;
+
+}
+
+#popup2{
+    height: 200px;
+    width: 400px;
+    border: 4px solid red;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+    position: relative;
+    top: 150px;
+    left: 500px;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#child{
+    height: 300px;
+    width: 200px;
+    border: 4px solid red;
+    color:  black;
+    background-color: white;
+    border-radius: 15px;
+}
+#plus{
+    color: red;
+    position: relative;
+    top: 180px;
+    left: 50px;
+}
+
+#delete{
+    color: red;
+    position: relative;
+    top: 180px;
+    left: 60px;
+}
